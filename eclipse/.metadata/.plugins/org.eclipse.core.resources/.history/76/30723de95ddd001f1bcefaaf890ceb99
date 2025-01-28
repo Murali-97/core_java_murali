@@ -1,0 +1,30 @@
+package practice1;
+
+public class evenandodd {
+
+	public static void main (String arg[])
+	{
+		
+	
+
+	for (int i=0; i<=10; i++)
+	{
+		
+		
+		if(i%2)
+		{
+		
+		
+		System.out.println("it is even number  :" + i);
+		}
+		
+				System.out.println("it is odd number  :" + i);
+	
+	}
+	
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,24 @@
+package practice1;
+
+public class evenandodd {
+
+	public static void main (String arg[])
+	{
+		
+	int a=100, b;
+
+	for (int i=1; i<=a; i++)
+	{
+		
+		b=i/2;
+		
+		System.out.println("it is even number  :" + b);
+		
+	}
+		
+		
+	}
+	
+	
+	
+}
