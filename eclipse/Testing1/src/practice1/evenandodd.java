@@ -12,15 +12,15 @@ public class evenandodd {
 		
 		
 		if(i%2==0)
-
+		{
 		System.out.println("it is even number  :" + i);
-	
-		else
+		}
+		else{
 				System.out.println("it is odd number  :" + i);
-	
+		
 	}
 	
-		
+	}		
 	}
 	
 	
