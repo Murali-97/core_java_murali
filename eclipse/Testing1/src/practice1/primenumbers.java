@@ -37,8 +37,10 @@ public class primenumbers {
 				System.out.println(n +": it is a prime number");
 				
 			}
+			else {
+				System.out.println(n +": it is not a prime number");
 		}
-		
+		}
 	}
 
 }

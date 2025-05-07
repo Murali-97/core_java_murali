@@ -5,11 +5,12 @@ public class palindromeno {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         
-		int n=1001, a=0,r,b=n;
+		int n=919, a=0,r,b=n;
 		
 		while(n>0) {
 			
 			r=n%10;
+			System.out.println(r);
 			a=a*10+r;
 			n=n/10;
 			
