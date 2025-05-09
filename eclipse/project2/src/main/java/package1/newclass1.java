@@ -1,13 +1,16 @@
 package package1;
 
 import java.util.Scanner;
+
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class newclass1 {
     browserlaunch b = new browserlaunch();
-
-    public void login() {
+    
+    // @Test(priority = 1)
+    public void login() throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the browser name:");
         String browser = sc.next();
@@ -25,12 +28,12 @@ public class newclass1 {
 
         // Pass the WebDriver instance to userclass
         userclass u = new userclass(driver);
-        u.user();
-
+       u.user();
+       u.pagination();
         //driver.quit(); // Ensure the browser is closed after execution
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         newclass1 n = new newclass1();
         n.login();
     }
